@@ -51,7 +51,7 @@ jobs:
     
     steps: 
     - id: report-count
-      uses: mdepoyfnba/arg-count-action@main
+      uses: mdepoy-fnba/arg-count-action@main
       with: 
         arguments-to-count: ${{ github.event.inputs.myValues }}
     - run: echo 
